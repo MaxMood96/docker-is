@@ -17,7 +17,7 @@
 # ------------------------------------------------------------------------
 
 # Set base Docker image to Ubuntu 24.04 Docker image.
-FROM ubuntu:24.04
+FROM ubuntu:24.10
 
 LABEL maintainer="WSO2 Docker Maintainers <dev@wso2.org>" \
       com.wso2.docker.source="https://github.com/wso2/docker-is/releases/tag/v7.1.0.1"
