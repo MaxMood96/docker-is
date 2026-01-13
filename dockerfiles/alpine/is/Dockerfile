@@ -17,7 +17,7 @@
 # ------------------------------------------------------------------------
 
 # Set base Docker image to Alpine Docker image.
-FROM alpine:3.22
+FROM alpine:3.23.2
 LABEL maintainer="WSO2 Docker Maintainers <dev@wso2.org>" \
       com.wso2.docker.source="https://github.com/wso2/docker-is/releases/tag/v7.2.0.1"
 
