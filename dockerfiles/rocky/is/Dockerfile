@@ -37,7 +37,7 @@ ENV LANG='en_US.UTF-8' LANGUAGE='en_US:en' LC_ALL='en_US.UTF-8'
 RUN yum install -y tzdata openssl ca-certificates fontconfig gzip tar nc unzip wget \
     && yum clean all
 
-ENV JAVA_VERSION jdk-21.0.9+10
+ENV JAVA_VERSION=jdk-21.0.9+10
 
 # Install Temurin OpenJDK 21.
 RUN set -eux; \

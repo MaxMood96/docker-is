@@ -31,7 +31,7 @@ RUN apt-get update \
     && locale-gen en_US.UTF-8 \
     && rm -rf /var/lib/apt/lists/*
 
-ENV JAVA_VERSION jdk-21.0.9+10
+ENV JAVA_VERSION=jdk-21.0.9+10
 
 # Install Temurin OpenJDK 21.
 RUN set -eux; \
